@@ -9,7 +9,7 @@ profileController.postProfile = async (req, res, next) => {
     next();
   } catch(err) {
     next({ Error: `Error is ${err} in taskController.postTask` })
-  }
+  } 
 };
 
 profileController.getProfile = async (req, res, next) => {

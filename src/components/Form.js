@@ -54,7 +54,7 @@ function Form() {
               setFormData('');
             } else {
               setPage((currPage) => currPage + 1);
-            }
+            } 
           }}
         >
           {page === FormTitles.length - 1 ? "Submit" : "Next"}

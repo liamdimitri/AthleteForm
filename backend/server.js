@@ -20,7 +20,7 @@ app.post('/postProfile', profileController.postProfile, (req, res) => {
   res.status(200).json(res.locals.newProfile);
 });
 
-app.put('/', (req, res) => {
+app.put('/', (req, res) => { 
   res.send("PUT Request Called")
 })
 

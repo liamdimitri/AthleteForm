@@ -33,4 +33,4 @@ function BasicInfo({ formData, setFormData }) {
   );
 }
 
-export default BasicInfo;
+export default BasicInfo; 
