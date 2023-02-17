@@ -1,0 +1,12 @@
+POST http://localhost:4000/postProfile/
+Content-Type: application/json
+
+{
+  "name":"Liam",
+  "sport":"Soccer",
+  "gender":"Male",
+  "description":"MVP",
+  "interests":"Sports",
+  "location":"LA",
+  "team":"Seahawks"
+}
