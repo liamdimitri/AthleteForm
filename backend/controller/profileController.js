@@ -7,7 +7,7 @@ profileController.postProfile = async (req, res, next) => {
     const createProfile = await Profile.create({ name: req.body.name });
     res.locals.newprofile = createProfile;
     next();
-  } catch(err) {
+  } catch(err) { 
     next({ Error: `Error is ${err} in taskController.postTask` })
   } 
 };
