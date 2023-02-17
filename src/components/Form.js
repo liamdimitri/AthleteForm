@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import AboutInfo from './AboutInfo';
 import BasicInfo from './BasicInfo';
 import Summary from './Summary';
@@ -14,7 +14,7 @@ function Form() {
     dob: "",
     description: "",
     interests: "",
-    location: "",
+    location: "", 
     team: "",
   });
 

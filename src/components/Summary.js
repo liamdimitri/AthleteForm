@@ -15,7 +15,7 @@ function Summary({ formData }) {
       <div>
       {formData.dob}
       </div> 
-      <div>
+      <div>  
       {formData.description}  
       </div>
       <div>

@@ -16,7 +16,7 @@ const AthleteProfile = new mongoose.Schema({
   dob:{
     type: String,
     required: false
-  },  
+  },
   description:{
     type: String,
     required: true

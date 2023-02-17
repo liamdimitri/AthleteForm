@@ -14,7 +14,7 @@ function AboutInfo({ formData, setFormData }) {
       value={formData.interests}
       onChange={(event) =>
         setFormData({ ...formData, interests: event.target.value })
-      }  /> 
+      }  />
       <input type="text" 
       placeholder="Location"
       value={formData.location}
